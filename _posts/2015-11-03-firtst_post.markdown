@@ -9,11 +9,11 @@ header-img: "img/post-bg-07.jpg"
 
 <p>Some sample text</p>
 
-<h1>sample title</h1>
+# sample title
 
 <p>sample main text</p>
 
-<h2>Sample subtitle</h2>
+## Sample subtitle
 
 <p>Aaaand more text, and some video:</p>
 
