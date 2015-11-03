@@ -15,4 +15,6 @@ header-img: "img/post-bg-07.jpg"
 
 <h2>Sample subtitle</h2>
 
-<p>Aaaand more text</p>
+<p>Aaaand more text, and some video:</p>
+
+<iframe src="https://player.vimeo.com/video/138979913" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/138979913">Pan&amp;Tilt Manipulators - 3D models and live camera stream</a> from <a href="https://vimeo.com/user20831291">RCE systems</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
