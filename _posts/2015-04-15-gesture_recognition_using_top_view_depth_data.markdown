@@ -20,14 +20,17 @@ published: true
 
 <h2>System overview</h2>
 
-<p>The system is capable of detection and tracking a person and it supports recognition of predefined gestures. No prior knowledge about a person to be tracked is required as the system derives all the necessary information autonomously during the human detection phase. Furthermore even the system is capable of correct operation wvwn in crowded environments as the selective tracking of formerly detected person is implemented. Thorough tests incorporating multiple subjects with different body heights and shapes were performed. High precision was achieved exceeding 92 % and thanks to the optimized C++ implementation together with GPU acceleration using CUDA framework the system runs in real-time (reaching more then 30 FPS). These results make the system perfectly suitable for the real time applications.</p>
+<p>The system is capable of detection and tracking a person and it supports recognition of six predefined gestures. The good thing is that no prior knowledge about a person to be tracked is required as the system derives the necessary information autonomously during the human detection phase. Even crowded environments is handled using selective tracking of formerly detected person. We optimised the overall performance with the help of GPU acceleration using CUDA framework and the system is thus capable of running real time.</p>
+
+<h3>How it works?</h3>
+
+<p>The whole system is composed of three main parts: human detection (and learning his/her physiological properties), human tracking and gesture recognition. For the big picture of the main system blocks see the figure below. The most important and the most time consuming part, the tracking, is based on fitting an articulated human body model to obtained data using particle filter framework and specifically defined constraints which originate in physiological properties of the human body. The gesture recognition part utilizes the timed automaton conforming to the human body poses and regarding tolerances of the joints positions and time constraints. </p>
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/system_architecture.png">
   <img class="post" src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
   </a>
 </div>
-
 
 <h2>Implementation</h2>
 
