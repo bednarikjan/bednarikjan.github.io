@@ -12,7 +12,7 @@ published: true
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/tracking.png">
-  <img style="display: block; margin-left: auto; margin-right: auto" src="/img/2015-04-15-hum_gest_rec/tracking.png" alt="System architecture" width="650" height="365" align="middle">
+  <img class="post" src="/img/2015-04-15-hum_gest_rec/tracking.png" alt="System architecture" width="650" height="365" align="middle">
   </a>
 </div>
 
@@ -22,7 +22,7 @@ published: true
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/system_architecture.png">
-  <img src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
+  <img class="post" src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
   </a>
 </div>
 
