@@ -31,6 +31,13 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
+
+img.post {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
 blockquote {
   color: #808080;
   font-style: italic;
