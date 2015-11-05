@@ -14,7 +14,7 @@ published: true
 
 <p>The system is capable of reliable detection and tracking of a person and it supports recognition of predefined gestures. No prior knowledge about a person to be tracked is required as the system derives all the necessary information autonomously during the human detection phase. Furthermore even crowded environments pose no limitations to the system’s performance as the selective tracking of formerly detected person is implemented. Thorough tests incorporating multiple subjects with different body heights and shapes were performed. High precision was achieved exceeding 92 % and thanks to the optimized C++ implementation together with GPU acceleration using CUDA framework the system runs in real-time (reaching more then 30 FPS). These results make the system perfectly suitable for the real time applications.</p>
 <p>
-  <img src="img/system_architecture.png" alt="System architecture" width="450" height="381" />
+  <img src="/img/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
 </p>
 
 <h2>Implementation</h2>
