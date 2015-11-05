@@ -11,7 +11,7 @@ published: true
 <p>The visual tracking of human body and gesture recognition represent a key technology in a number of areas such as video surveillance, security applications, entertainment industry or natural human-machine interaction. With the advent of depth sensors capable of 3D scene reconstruction the reliability of human tracking solutions increased. Most of the current approaches rely on the side view mounted sensors, i.e. a standing person must directly face the sensor, however certain applications might require the sensor to be placed away from the scene which the user moves within. For one of our partners we developed and implemented a system suitable for real-time human tracking and predefined human gestures recognition using depth data acquired from Microsoft Kinect sensor installed right above the detection region.</p>
 
 <p>
-  <img src="/img/2015-04-15-hum_gest_rec/tracking.png" alt="System architecture" width="450" height="381" align="middle">
+  <img src="/img/2015-04-15-hum_gest_rec/tracking.png" alt="System architecture" width="650" height="365" align="middle">
 </p>
 
 <h2>System overview</h2>
