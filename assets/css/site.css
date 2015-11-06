@@ -177,3 +177,7 @@ div.post p {
 	margin-top: 2em; 
 	margin-bottom: 2em;
 }
+
+div.post a{
+ color: #0A54FF;
+}
