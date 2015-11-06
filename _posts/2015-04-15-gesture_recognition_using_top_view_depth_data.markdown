@@ -57,8 +57,8 @@ The system was designed and developed for the Czech Republic based luxury glass 
 <p>The system was presented at a conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a> – Student competition conference of innovations, technology and science in IT which was held by the Faculty of Information Technology, Brno University of Technology on 30th April 2015. We were awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
 
 <h2>Authors</h2>
-<p>This project was designed and developed by the Czech Republic based technology company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
-<ul>
 <li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík<a/></li>
 <li><a href="mailto:david.herman@rcesystems.cz">David Herman</a></li>
 </ul>
+<p>This project was designed and developed by the Czech Republic based technology company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
+<ul>
