@@ -166,7 +166,7 @@ a{
 }
 
 /* images and videos in posts should be horizontally centered */
-img.post, div.video {
+img.post, iframe {
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto;
