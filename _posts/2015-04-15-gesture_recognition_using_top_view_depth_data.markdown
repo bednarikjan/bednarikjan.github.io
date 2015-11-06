@@ -30,7 +30,7 @@ published: true
 
 <p>The system is capable of detection and tracking a person and it supports recognition of six predefined gestures. The good thing is that no prior knowledge about a person to be tracked is required as the system derives the necessary information autonomously during the human detection phase. Even crowded environments is handled using selective tracking of formerly detected person. We optimised the overall performance with the help of GPU acceleration using CUDA framework and the system is thus capable of running real time.</p>
 
-<h3>How it works?</h3>
+<h2>How it works?</h2>
 
 <p>The whole system is composed of three main parts: human detection (and learning his/her physiological properties), human tracking and gesture recognition. For the big picture of the main system blocks see the figure below. The most important and the most time consuming part, the tracking, is based on fitting an articulated human body model to obtained data using particle filter framework and specifically defined constraints which originate in physiological properties of the human body. Since the system must evaluate approx. 10000 particles per frame the GPU acceleration was inevitable. The gesture recognition part utilizes the timed automaton conforming to she human body poses and regarding tolerances of the joints positions and time constraints. </p>
 
