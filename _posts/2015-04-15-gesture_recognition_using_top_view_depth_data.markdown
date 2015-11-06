@@ -69,9 +69,8 @@ The system was designed and developed for the Czech Republic based luxury glass 
 </div>
 
 <table>
-  <col width="50">
-  <col width="80">
-  <col width="500">
+  <col width="5%">
+  <col width="20%">
   <tr>
     <th>Month</th>
     <th>Savings</th>
