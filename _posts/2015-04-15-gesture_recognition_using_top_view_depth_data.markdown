@@ -12,6 +12,12 @@ published: true
 
 <p> In this project I worked on a system capable of tracking a human and detecting human gestures using depth data from Microsoft Kinect sensor placed right above the detection region. Of course, the advent of affordable depth sensors enabling for the 3D scene reconstruction gave rise to the multiple already working SW solutions for human tracking (e.g. Microsoft for Kinect SDK, OpenNI etc.), nevertheless neither of these libraries support human recognition and tracking when the sensor is placed right above the tracked person. Here the real challenge started as we had to design and implement the human recognition, tracking and gesture detection from scratch. </p>
 
+<div>
+  <a href="/img/2015-04-15-hum_gest_rec/installation.png">
+  <img class="post" src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
+  </a>
+</div>
+
 <p>One might ask, why to reinvent the whell and not just place the sensor in front of the tracked person and use the already working side-view? The reason is that this system was ordered byt the Czech Republic based glass installations manufacturer Lasvit, who intended to create a kinect installation controled by human gestures in the real-time, where the (depth) sensor must not interfere with the exposition and must not be seen. Therefore the only possible solution was to place the sensor on the ceiling.</p>
 
 <div>
