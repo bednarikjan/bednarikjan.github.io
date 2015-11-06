@@ -32,12 +32,14 @@ published: true
   </a>
 </div>
 
+<p>We publushed the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a> where we describe the internals of the system in great detail.</p>
+
 <h2>Implementation</h2>
 
-<p>The system is based on the optimized C++ implementation utilizing ROS (Robot Operating System) framework where the most demanding part of the system were accelerated on GPU using CUDA framework.</p>
+<p>The system is based on the optimized C++ implementation utilizing ROS (Robot Operating System) framework where the most demanding parts of the system were accelerated on GPU using CUDA framework. Furthermore the implementation utilizes OpenCV, PCL and Eigen libraries. </p>
 
 <h2>Real world application</h2>
 
-The system was accepted as the entertainment solution enabling a user to control a glass kinetic installation which was exhibited by the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit on this year’s Euroluce 2015 exhibition held in Milan in April 2015. Below you can watch a video which shows the internal of the system and includes the teaser from Euroluce 2015 made by Lasvit.
+The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on Euroluce 2015 exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit.
 
 <iframe src="https://player.vimeo.com/video/144561041" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/144561041">Human gesture recognition using top view depth data</a> from <a href="https://vimeo.com/user34095639">J B</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
