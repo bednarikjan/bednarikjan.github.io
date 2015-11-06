@@ -72,16 +72,9 @@ The system was designed and developed for the Czech Republic based luxury glass 
   <col width="5%">
   <col width="20%">
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
-  </tr>
-  <tr>
-    <td>January</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>February</td>
-    <td>$80</td>
+    <td>obr.</td>
+    <td><span style="font-variant: small-caps;">Paper (EN):</span></td>
+    <td><a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a></td>
   </tr>
 </table>
 
