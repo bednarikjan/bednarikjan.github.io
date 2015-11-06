@@ -62,3 +62,8 @@ The system was designed and developed for the Czech Republic based luxury glass 
 </ul>
 <p>This project was designed and developed by the Czech Republic based technology company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
 <ul>
+
+<h2>Sources</h2>
+<div>
+<span style="font-variant: small-caps;">Paper (EN):</span>  <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a>
+</div>
