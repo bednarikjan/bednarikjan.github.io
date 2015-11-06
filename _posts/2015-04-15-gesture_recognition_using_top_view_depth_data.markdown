@@ -58,10 +58,11 @@ published: true
 <p>I had the chance to present the project at conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a>, student competition conference of innovations, technology and science in IT, which was held by hthe Faculty of Information Technology, Brno University of Technology on 30th April 2015. Our project was awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
 
 <h2>Authors</h2>
-<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík<a/></li>
+<ul>
+<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík</a></li>
 <li><a href="mailto:david.herman@rcesystems.cz">David Herman</a></li>
 </ul>
-<p>This project was designed and developed by the Czech Republic based technology company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
+<p>I worked on this project together with my colleague David Herman as an employee of the Czech Republic based tech company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
 
 <h2>Project materials</h2>
 
