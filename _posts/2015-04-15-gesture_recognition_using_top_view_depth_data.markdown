@@ -36,8 +36,7 @@ published: true
 
 <p>The whole system is composed of three main parts: human detection (and learning his/her physiological properties), human tracking and gesture recognition. For the big picture of the main system blocks see the figure below. The most important and the most time consuming part, the tracking, is based on fitting an articulated human body model to obtained data using particle filter framework and specifically defined constraints which originate in physiological properties of the human body. Since the system must evaluate approx. 10000 particles per frame the GPU acceleration was inevitable. The gesture recognition part utilizes the timed automaton conforming to she human body poses and regarding tolerances of the joints positions and time constraints. </p>
 
-<p>
-We published the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a> where we describe the internals of the system in great detail. </p>
+<p> We published the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a> where we describe the internals of the system in great detail. </p>
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/system_architecture.png">
@@ -51,7 +50,7 @@ We published the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/9
 
 <h2>Real world application</h2>
 
-The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit.
+<p> The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit. </p>
 
 <iframe src="https://player.vimeo.com/video/144561041" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/144561041">Human gesture recognition using top view depth data</a> from <a href="https://vimeo.com/user34095639">J B</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
