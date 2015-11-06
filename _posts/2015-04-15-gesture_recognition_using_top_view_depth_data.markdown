@@ -10,6 +10,8 @@ published: true
 
 <p> In this project I worked on a system capable of tracking a human and detecting human gestures using depth data from Microsoft Kinect sensor placed right above the detection region. Of course, the advent of affordable depth sensors enabling for the 3D scene reconstruction gave rise to the multiple already working SW solutions for human tracking (e.g. Microsoft for Kinect SDK, OpenNI etc.), nevertheless neither of these libraries support human recognition and tracking when the sensor is placed right above the tracked person. Here the real challenge started as we had to design and implement the human recognition, tracking and gesture detection from scratch. </p>
 
+<!--more-->
+
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/installation.png">
   <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="The sensor installation and the detection region" width="350" align="middle">
