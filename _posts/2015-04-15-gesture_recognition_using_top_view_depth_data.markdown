@@ -52,9 +52,7 @@ published: true
 
 <p> The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit. </p>
 
-<div class="video">
 <iframe src="https://player.vimeo.com/video/144561041" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-</div>
 
 <h2>Awards</h2>
 <p>The system was presented at a conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a> – Student competition conference of innovations, technology and science in IT which was held by the Faculty of Information Technology, Brno University of Technology on 30th April 2015. We were awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
