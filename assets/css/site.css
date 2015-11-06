@@ -165,8 +165,8 @@ a{
   background-color: #f8f8f8
 }
 
-/* images in posts should be horizontally centered */
-img.post {
+/* images and videos in posts should be horizontally centered */
+img.post, iframe {
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto;
@@ -178,6 +178,7 @@ div.post p {
 	margin-bottom: 2em;
 }
 
+/* Anchor color */
 div.post a {
  color: #0030A0;
 }
