@@ -43,7 +43,7 @@ We published the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/9
 
 <h2>Real world application</h2>
 
-The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on <a href"http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit.
+The system was designed and developed for the Czech Republic based luxury glass installations and lighting collections manufacturer Lasvit who presented their kinetic lighting system Supernova together with our human gesture detection system on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit.
 
 <iframe src="https://player.vimeo.com/video/144561041" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/144561041">Human gesture recognition using top view depth data</a> from <a href="https://vimeo.com/user34095639">J B</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
@@ -51,7 +51,8 @@ The system was designed and developed for the Czech Republic based luxury glass 
 <p>The system was presented at a conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a> – Student competition conference of innovations, technology and science in IT which was held by the Faculty of Information Technology, Brno University of Technology on 30th April 2015. We were awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
 
 <h2>Authors</h2>
+<p>This project was designed and developed by the Czech Republic based technology company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
 <ul>
-<li>Jan Bednařík</li>
-<li>David Herman</li>
+<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík<a/></li>
+<li><a href="mailto:david.herman@rcesystems.cz">David Herman</a></li>
 </ul>
