@@ -2,11 +2,13 @@
 layout: post
 title: Gesture recognition using top view depth data
 subtitle: ""
-date: {2015-04-13}
+date: 
+  "Mon Apr 13 2015 02:00:00 GMT+0200 (Střední Evropa (letní čas))": null
 author: Jan Bednarik
 "header-img": img/human_gesture_recognition_header.png
 published: true
 ---
+
 
 <p> In this project I worked on a system capable of tracking a human and detecting human gestures using depth data from Microsoft Kinect sensor placed right above the detection region. Of course, the advent of affordable depth sensors enabling for the 3D scene reconstruction gave rise to the multiple already working SW solutions for human tracking (e.g. Microsoft for Kinect SDK, OpenNI etc.), nevertheless neither of these libraries support human recognition and tracking when the sensor is placed right above the tracked person. Here the real challenge started as we had to design and implement the human recognition, tracking and gesture detection from scratch. </p>
 
@@ -38,6 +40,8 @@ We published the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/9
 <h2>Implementation</h2>
 
 <p>The system is based on the optimized C++ implementation utilizing ROS (Robot Operating System) framework where the most demanding parts of the system were accelerated on GPU using CUDA framework. Furthermore the implementation utilizes OpenCV, PCL and Eigen libraries. </p>
+
+ggg
 
 <h2>Real world application</h2>
 
