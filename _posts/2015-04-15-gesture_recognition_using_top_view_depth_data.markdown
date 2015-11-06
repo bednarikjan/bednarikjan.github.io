@@ -14,7 +14,7 @@ published: true
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/installation.png">
-  <img class="post" src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
+  <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="System architecture" width="450" height="381" align="middle">
   </a>
 </div>
 
