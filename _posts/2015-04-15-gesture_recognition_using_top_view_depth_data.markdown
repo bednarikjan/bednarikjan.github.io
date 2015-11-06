@@ -1,11 +1,9 @@
 ---
 layout: post
+tags: computer-vision tracking gesture-recognition C++
+date: 2014-12-30 13:06
+thumbnail: http://placehold.it/100x100 
 title: Gesture recognition using top view depth data
-subtitle: ""
-date: 
-  "Mon Apr 13 2015 02:00:00 GMT+0200 (Střední Evropa (letní čas))": null
-author: Jan Bednarik
-"header-img": img/human_gesture_recognition_header.png
 published: true
 ---
 
