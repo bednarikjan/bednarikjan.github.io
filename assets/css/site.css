@@ -164,3 +164,16 @@ a{
 .blog-header{
   background-color: #f8f8f8
 }
+
+/* images in posts should be horizontally centered */
+img.post {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}	
+
+/* text blocks (paragraphs) in posts should have pre and post vertical margin */
+div.post p {
+	margin-top: 1em; 
+	margin-bottom: 1em
+}
