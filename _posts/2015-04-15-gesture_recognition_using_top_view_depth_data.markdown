@@ -1,11 +1,12 @@
 ---
 layout: post
-tags: computer-vision tracking gesture-recognition C++
-date: 2015-04-13 22:04
-thumbnail: /img/2015-04-15-hum_gest_rec/thumbnail.png 
+tags: "computer-vision tracking gesture-recognition C++"
+date: "2015-04-13 22:04"
+thumbnail: "/img/2015-04-15-hum_gest_rec/thumbnail.png"
 title: Gesture recognition using top view depth data
 published: true
 ---
+
 
 <div class="post">
 
@@ -66,5 +67,23 @@ The system was designed and developed for the Czech Republic based luxury glass 
 <h2>Project materials</h2>
 <span style="font-variant: small-caps;">Paper (EN):</span>  <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a>
 </div>
+
+<table>
+  <col width="50">
+  <col width="80">
+  <col width="500">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
 
 </div>
