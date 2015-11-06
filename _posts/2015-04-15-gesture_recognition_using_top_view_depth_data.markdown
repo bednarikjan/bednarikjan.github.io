@@ -67,7 +67,7 @@ The system was designed and developed for the Czech Republic based luxury glass 
 <h2>Project materials</h2>
 
 <table>
-  <col width="10%">
+  <col width="8%">
   <col width="15%">
   <tr>
     <td><img src="/img/pdf.png" alt="pdf icon" width="40" height="40" align="middle"></td>
