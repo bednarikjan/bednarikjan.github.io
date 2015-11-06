@@ -70,7 +70,7 @@ The system was designed and developed for the Czech Republic based luxury glass 
 
 <table>
   <col width="5%">
-  <col width="20%">
+  <col width="15%">
   <tr>
     <td>obr.</td>
     <td><span style="font-variant: small-caps;">Paper (EN):</span></td>
