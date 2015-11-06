@@ -14,7 +14,7 @@ published: true
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/installation.png">
-  <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="The sensor installation and the detection region" width="450" height="381" align="middle">
+  <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="The sensor installation and the detection region" width="350" align="middle">
   </a>
 </div>
 
