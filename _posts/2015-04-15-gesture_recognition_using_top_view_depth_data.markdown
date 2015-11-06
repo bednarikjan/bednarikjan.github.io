@@ -24,15 +24,13 @@ published: true
 
 <h3>How it works?</h3>
 
-<p>The whole system is composed of three main parts: human detection (and learning his/her physiological properties), human tracking and gesture recognition. For the big picture of the main system blocks see the figure below. The most important and the most time consuming part, the tracking, is based on fitting an articulated human body model to obtained data using particle filter framework and specifically defined constraints which originate in physiological properties of the human body. The gesture recognition part utilizes the timed automaton conforming to the human body poses and regarding tolerances of the joints positions and time constraints. </p>
+<p>The whole system is composed of three main parts: human detection (and learning his/her physiological properties), human tracking and gesture recognition. For the big picture of the main system blocks see the figure below. The most important and the most time consuming part, the tracking, is based on fitting an articulated human body model to obtained data using particle filter framework and specifically defined constraints which originate in physiological properties of the human body. The gesture recognition part utilizes the timed automaton conforming to the human body poses and regarding tolerances of the joints positions and time constraints. We publushed the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a> where we describe the internals of the system in great detail. </p>
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/system_architecture.png">
   <img class="post" src="/img/2015-04-15-hum_gest_rec/system_architecture.png" alt="System architecture" width="450" height="381" align="middle">
   </a>
 </div>
-
-<p>We publushed the paper <a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a> where we describe the internals of the system in great detail.</p>
 
 <h2>Implementation</h2>
 
