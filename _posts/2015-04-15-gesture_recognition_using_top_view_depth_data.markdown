@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: computer-vision tracking gesture-recognition C++
-date: 2014-12-30 13:06
-thumbnail: http://placehold.it/100x100 
+date: 2015-04-13 22:04
+thumbnail: /img/2015-04-15-hum_gest_rec/thumbnail.png 
 title: Gesture recognition using top view depth data
 published: true
 ---
