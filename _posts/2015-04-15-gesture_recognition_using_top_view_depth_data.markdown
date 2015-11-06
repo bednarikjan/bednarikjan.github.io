@@ -72,7 +72,7 @@ The system was designed and developed for the Czech Republic based luxury glass 
   <col width="5%">
   <col width="15%">
   <tr>
-    <td>obr.</td>
+    <td><img src="/img/pdf.png" alt="pdf icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Paper (EN):</span></td>
     <td><a href="http://excel.fit.vutbr.cz/2015/submissions/095/95.pdf">Human gesture recognition using top view depth data obtained from Kinect sensor</a></td>
   </tr>
