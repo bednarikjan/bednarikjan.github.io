@@ -9,7 +9,7 @@ published: false
 <!--more-->
 
 <div>
-  <a href="/img/2015-04-15-hum_gest_rec/installation.png">
+  <a href="/img/2015-06-05-traj_clus/trajclus.png">
   <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="The sensor installation and the detection region" width="350" align="middle">
   </a>
 </div>
@@ -36,7 +36,7 @@ The demo app is implemented in Python and utilizes NumPy and SciPy libraries. I 
 <p>I worked on this project as an employee of the Czech Republic based tech company <a href="http://www.rcesystems.cz/">RCE systems</a> which develops the system <a href="http://datafromsky.com/">DataFromSky</a> - a specialized solution for automatic analysis of traffic activity in aerial videos. The trajectory clustering was used as a subsystem enabling the researchers to perform the analyses showing the common trends in the traffic. For more info see this <a href="http://datafromsky.com/news/new-functionality-flow-visualization/">blog post</a>.</p>
 
 <div>
-  <a href="/img/2015-04-15-hum_gest_rec/installation.png">
+  <a href="/img/2015-06-05-traj_clus/dfs_trajclus.png">
   <img class="post" src="/img/2015-04-15-hum_gest_rec/installation.png" alt="The sensor installation and the detection region" width="350" align="middle">
   </a>
 </div>
