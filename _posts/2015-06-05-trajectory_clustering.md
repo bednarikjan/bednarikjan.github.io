@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+tags: "machine-learning unsupervised-learning clustering Python"
+date: "2015-06-05 13:18"
+thumbnail: "/img/2015-06-05-traj_clus/thumbnail.png"
+title: Trajectory clustering
+published: true
 ---
 
 <div class="post">
