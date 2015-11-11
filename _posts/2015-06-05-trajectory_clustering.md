@@ -41,11 +41,6 @@ The demo app is implemented in Python and utilizes NumPy and SciPy libraries. I 
   </a>
 </div>
 
-<h2>Authors</h2>
-<ul>
-<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík</a></li>
-</ul>
-
 <h2>Project materials</h2>
 
 <table>
