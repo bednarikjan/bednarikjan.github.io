@@ -15,7 +15,7 @@ published: true
 
 <div>
   <a href="/img/2015-06-05-traj_clus/trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="350" align="middle">
+  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
   </a>
 </div>
 
@@ -42,7 +42,7 @@ The demo app is implemented in Python and utilizes NumPy and SciPy libraries. I 
 
 <div>
   <a href="/img/2015-06-05-traj_clus/dfs_trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/dfs_trajclus.png" alt="The sensor installation and the detection region" width="350" align="middle">
+  <img class="post" src="/img/2015-06-05-traj_clus/dfs_trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
   </a>
 </div>
 
