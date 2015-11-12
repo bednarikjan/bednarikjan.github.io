@@ -41,13 +41,9 @@ The demo app is implemented in Python and utilizes NumPy and SciPy libraries. I 
 
 <p>I worked on this project as an employee of the Czech Republic based tech company <a href="http://www.rcesystems.cz/">RCE systems</a> which develops the system <a href="http://datafromsky.com/">DataFromSky</a> - a specialized solution for automatic analysis of traffic activity in aerial videos. The trajectory clustering was used as a subsystem enabling the researchers to perform the analyses showing the common trends in the traffic. For more info see this <a href="http://datafromsky.com/news/new-functionality-flow-visualization/">blog post</a>.</p>
 
-<p>Video stabilization using KLT and SVD:</p>
-<iframe src="https://player.vimeo.com/video/145458594" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>Video stabilization using Gray Coded Bitplane Matching:</p>
 <div>
   <a href="/img/2015-06-05-traj_clus/dfs_trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/dfs_trajclus.png" alt="Video stabilization using Gray Coded Bitplane Matching" width="700" align="middle">
+  <img class="post" src="/img/2015-06-05-traj_clus/dfs_trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
   </a>
 </div>
 
