@@ -13,14 +13,27 @@ published: true
 
 <!--more-->
 
-<h2>System overview</h2>
+The resulting program is a command line tool working as a filter. It reads the input video and produces its stabilized equivalent. When using the tool you can fine-tune multiple parameters specific to the chosen method. The tool is implemented in C++ and uses the OpenCV library.
 
 <h2>How it works?</h2>
 
+The first method, Gray Coded Bit Plane Matching, compares the bit fields in the consecutive frames of the video and tries to estimate the most likely translation. A bitfield is a matrix obtained from the input frame by iteratively applying the XOR operation (for more details see paper <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.6888&rep=rep1&type=pdf">Real-Time Digital Image Stabilization</a>). The method is fast but only enables for translation correction.
 
-<h2>Implementation</h2>
+The second method utilizes the KLT tracker for detection and tracking of the key points. As the key points are gradually lost (the camera/object moves) it is necessary to reinitialize the tracker. In order to reduce the computational complexity we only reinitialize the tracker if the number fo tracked points falls below the specifed threshold. The affine transformation itslef is then estimated using Singular Value Decompostion which gives us the rotation and translation matrix. Thus this method allows for compansating both rotation and translation.
+
+Furthermore we took the Google's approach described in this paper and implemented the simulation of the long term camera motion. We only support the linear motion model.
+
+<p>Video stabilization using KLT and SVD:</p>
+<iframe src="https://player.vimeo.com/video/145458594" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>Video stabilization using Gray Coded Bitplane Matching:</p>
+<iframe src="https://player.vimeo.com/video/145456516" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h2>Authors</h2>
+<ul>
+<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík</a></li>
+<li><a href="mailto:kvitajakub@gmail.com ">Jakub Kvita</a></li>
+</ul>
 
 <h2>Project materials</h2>
 
@@ -30,7 +43,7 @@ published: true
   <tr>
     <td><img src="/img/source.png" alt="source code icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Source code (Python):</span></td>
-    std><a href="https://github.com/bednarikjan/TrajectoryClustering">Video Stabilization</a></td>
+    <td><a href="https://github.com/bednarikjan/TrajectoryClustering">Video Stabilization</a></td>
   </tr>
 </table>
 
