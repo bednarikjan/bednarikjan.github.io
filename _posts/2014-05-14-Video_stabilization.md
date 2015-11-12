@@ -1,8 +1,11 @@
 ---
-published: false
+layout: post
+tags: "image processing computer-vision video-stabilization C++"
+date: "2014-05-14 10:17"
+thumbnail: "/img/2014-05-14-vid_stab/thumbnail.png"
+title: Video stabilization
+published: true
 ---
-
-
 
 <div class="post">
 
