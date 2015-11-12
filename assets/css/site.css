@@ -176,6 +176,7 @@ img.post, iframe {
 div.post p {
 	margin-top: 2em; 
 	margin-bottom: 2em;
+	text-align: justify;
 }
 
 /* Anchor color */
