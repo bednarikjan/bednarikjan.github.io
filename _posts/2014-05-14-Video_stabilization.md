@@ -54,7 +54,12 @@ Furthermore we took the Google's approach described in this paper and implemente
   <tr>
     <td><img src="/img/source.png" alt="source code icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Source code (C++):</span></td>
-    <td><a href="https://github.com/bednarikjan/TrajectoryClustering">Video Stabilization</a></td>
+    <td><a href="https://github.com/bednarikjan/VideoStabilization">Video Stabilization</a></td>
+  </tr>
+  <tr>
+    <td><img src="/img/pdf.png" alt="doc icon" width="40" height="40" align="middle"></td>
+    <td><span style="font-variant: small-caps;">Doc (CZ):</span></td>
+    <td><a href="https://github.com/bednarikjan/VideoStabilization/blob/master/doc/dokumentace.pdf">Project documentation</a></td>
   </tr>
 </table>
 
