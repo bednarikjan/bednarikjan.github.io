@@ -53,7 +53,7 @@ Furthermore we took the Google's approach described in this paper and implemente
   <col width="12%">
   <tr>
     <td><img src="/img/source.png" alt="source code icon" width="40" height="40" align="middle"></td>
-    <td><span style="font-variant: small-caps;">Source code (Python):</span></td>
+    <td><span style="font-variant: small-caps;">Source code (C++):</span></td>
     <td><a href="https://github.com/bednarikjan/TrajectoryClustering">Video Stabilization</a></td>
   </tr>
 </table>
