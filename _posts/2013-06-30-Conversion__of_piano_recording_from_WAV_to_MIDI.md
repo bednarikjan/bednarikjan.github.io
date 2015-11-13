@@ -6,7 +6,6 @@ date: "2013-06-30 23:51"
 thumbnail: "/img/2013-06-30-wav2midi/thumbnail.png"
 ---
 
-
 <div class="post">
 
 <p> During the last year of the Bachelor's programme we were to choose a topic for our Bachelor thesis. As I found myself quite interested in signal processing and as I wanted to somehow link the schoolwork with music I decided to propose a topic which would focus on automatic transcription of piano recording to piano sheets (or at least MIDI). The resulting application written in Matlab is capable of analyzing the piano recording and transforming it to the MIDI transcription.
@@ -29,16 +28,18 @@ One of the main requirements was to support polypohny, as that poses a real chal
 </div>
 
 <div>
-  <a href="/img/2013-06-30-wav2midi/spectorgram.png">
+  <a href="/img/2013-06-30-wav2midi/spectrogram.png">
   <img class="post" src="/img/2013-06-30-wav2midi/spectorgram.png" alt="Spectrogram for a few seconds of Smoke on the water song played on piano." width="600" align="middle">
   </a>
 </div>
 
 <h2>Implementation</h2>
-<p>The system is implemented in Matlab and can be used as a command line application accpeting the WAV recording and producing the correspondent MIDI.</p>
+<p>The system is implemented in Matlab and can be used as a command line application accpeting the WAV recording and producing the correspondent MIDI. No addirtional optimalizations were made as this project was meant to be a proof-of-concept of the given approach.</p>
 
 <h2>Awards</h2>
 <p>The Bachelor thesis was awarded the Dean's award for outstanding Bachelor thesis.</p>
+
+<iframe src="https://player.vimeo.com/video/145616615" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h2>Project materials</h2>
 
@@ -53,7 +54,7 @@ One of the main requirements was to support polypohny, as that poses a real chal
   <tr>
     <td><img src="/img/pdf.png" alt="pdf icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Bachelor thesis (CZ):</span></td>
-    <td><a href="">Conversion of piano recording from WAV to MIDI</a></td>
+    <td><a href="https://github.com/bednarikjan/WAV2MIDI/blob/master/doc/bachelor_thesis-Jan_Bednarik.pdf">Conversion of piano recording from WAV to MIDI</a></td>
   </tr>
 </table>
 
