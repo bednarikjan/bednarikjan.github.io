@@ -1,5 +1,10 @@
 ---
-published: false
+layout: post
+tags: "computer-graphics ray-tracing 3d-model C++"
+date: "2014-12-02 18:45"
+thumbnail: "/img/2014-12-02--ray_tracing/thumbnail.png"
+title: Video stabilization
+published: true
 ---
 
 
@@ -10,12 +15,6 @@ This project was the main deliverable of the winter semester course Computer gra
 </p>
 
 <!--more-->
-
-<div>
-  <a href="/img/2015-06-05-traj_clus/trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
-  </a>
-</div>
  
 <h2>System overview</h2>
  
