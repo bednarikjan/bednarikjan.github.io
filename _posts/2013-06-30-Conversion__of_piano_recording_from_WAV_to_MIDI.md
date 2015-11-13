@@ -1,4 +1,5 @@
 ---
+title: Conversion of piano recordings from WAV to MIDI
 published: true
 layout: post
 tags: "signal-processing machine-learning WAV MIDI matlab"
