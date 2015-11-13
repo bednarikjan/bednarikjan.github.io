@@ -32,8 +32,8 @@ One of the main requirements was to support polypohny, as that poses a real chal
 </div>
 
 <div>
-  <a href="/img/2013-06-30-wav2midi/spectrogram.png">
-  <img class="post" src="/img/2013-06-30-wav2midi/spectrogram.png" alt="Spectrogram for a few seconds of Smoke on the water song played on piano." width="600" align="middle">
+  <a href="/img/2013-06-30-wav2midi/spectorgram.png">
+  <img class="post" src="/img/2013-06-30-wav2midi/spectorgram.png" alt="Spectrogram for a few seconds of Smoke on the water song played on piano." width="600" align="middle">
   </a>
 </div>
 
