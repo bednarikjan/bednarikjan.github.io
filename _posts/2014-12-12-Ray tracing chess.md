@@ -3,7 +3,7 @@ layout: post
 tags: "computer-graphics ray-tracing 3d-model C++"
 date: "2014-12-02 18:45"
 thumbnail: "/img/2014-12-02--ray_tracing/thumbnail.png"
-title: Chess rendering using ray tracing
+title: Chess renderer using ray tracing
 published: true
 ---
 
