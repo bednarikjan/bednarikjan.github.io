@@ -3,7 +3,7 @@ layout: post
 tags: "computer-graphics ray-tracing 3d-model C++"
 date: "2014-12-02 18:45"
 thumbnail: "/img/2014-12-02--ray_tracing/thumbnail.png"
-title: Video stabilization
+title: Ray tracing chess
 published: true
 ---
 
@@ -11,7 +11,7 @@ published: true
 <div class="post">
 
 <p>
-This project was the main deliverable of the winter semester course Computer graphics. Even though the principle of ray tracing is not particuralry new and is already well established, I have somehow always felt the temptation to write my own simple ray tracer from scratch. Therefore, together with my colleague, we decided to assign for a project called Chess rendered using ray tracing. The resulting application written in C++ is capable of rendering the chessboard with arbitrarily placed pieces, it uses the Phong shading model and supports shadows and reflections. Hooray, one programer's dream checked.
+This project was the main deliverable of the winter semester course Computer graphics. Even though the principle of ray tracing is not particuralry new and is already well established, I have somehow always felt the temptation to write my own simple ray tracer from scratch. Therefore, together with my colleague, we decided to assign for a project called Chess rendered using ray tracing. The resulting application written in C++ is capable of rendering the chessboard with arbitrarily placed pieces, it uses the Phong shading model and supports shadows and reflections. Hooray, one programmer's dream checked.
 </p>
 
 <!--more-->
