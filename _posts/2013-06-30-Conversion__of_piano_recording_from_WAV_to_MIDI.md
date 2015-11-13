@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 tags: "signal-processing machine-learning WAV MIDI matlab"
 date: "2013-06-30 23:51"
