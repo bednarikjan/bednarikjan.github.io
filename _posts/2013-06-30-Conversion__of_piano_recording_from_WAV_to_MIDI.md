@@ -3,7 +3,7 @@ published: true
 layout: post
 tags: "signal-processing machine-learning WAV MIDI matlab"
 date: "2013-06-30 23:51"
-thumbnail: "/img/2013-06-30-wav/thumbnail.png"
+thumbnail: "/img/2013-06-30-wav2midi/thumbnail.png"
 ---
 
 
