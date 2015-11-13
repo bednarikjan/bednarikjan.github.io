@@ -19,7 +19,7 @@ This project was the main deliverable of the winter semester course Computer gra
  
 <h2>System overview</h2>
  
- The resulting application lets the user render the scene containing the chessboard covered by pieces of both opponets. We decided to make the system as parametrizable as possible. It is possible to set the camera's resolution and FOV, the position of the light in the scene, background color, recursion depth of ray tracing, the colors of the pieces and chessboard fields as well as the reflectance and the shininess. Regarding the chessboard model, the user can set the position of each piece. Both the renderer and the model configuration can be done using the files <tt>configChessDefault</tt> and <tt>configRTDefault</tt>
+ The resulting application lets the user render the scene containing the chessboard covered by pieces of both opponets. We decided to make the system as parametrizable as possible. It is possible to set the camera's resolution and FOV, the position of the light in the scene, background color, recursion depth of ray tracing, the colors of the pieces and chessboard fields as well as the reflectance and the shininess. Regarding the chessboard model, the user can set the position of each piece. Both the renderer and the model configuration can be done using the files <tt>configChessDefault</tt> and <tt>configRTDefault</tt> (see the source code).
  
 <p>
 </p>
