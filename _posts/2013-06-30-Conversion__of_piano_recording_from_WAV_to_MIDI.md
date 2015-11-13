@@ -6,16 +6,16 @@ date: "2013-06-30 23:51"
 thumbnail: "/img/2013-06-30-wav/thumbnail.png"
 ---
 
+
 <div class="post">
 
-<p> The aim of the thesis is to propose a system capable of automatic conversion of polyphonic
-piano recordings from the audio format WAV to MIDI. The thesis describes problems
-related to single tone recognition in music recordings and proposes a solution based on a
-probabilistic model that uses the Probabilistic Latent Component Analysis method. Recordings
-of isolated digital piano tones were used to train the system. The proposed system was
-tested on classical recordings of the Classical Piano MIDI database and on recordings of a
-Korg SP-250 piano and evaluated using a variety of metrics. The conclusion part contains
-the results of recognition success rate and their comparison with other existing systems.
+<p> During the last year of the Bachelor programme we were to choose a topic for our Bachelor's thesis. As I found myself quite interested in signal processing and as I wanted to somehow link the schoolwork with music I decided to propose a topic which would focus on automatic transcription of piano recording to piano sheets (or at least MIDI). The resulting application written in Matlab is capable of analyzing the piano recording and transforming it to the MIDI transcription.
+</p>
+
+<p>
+Here is the abstract of the thesis:
+<span style="font-style: italic;">The aim of the thesis is to propose a system capable of automatic conversion of polyphonic piano recordings from the audio format WAV to MIDI. The thesis describes problems related to single tone recognition in music recordings and proposes a solution based on a probabilistic model that uses the Probabilistic Latent Component Analysis method. Recordings of isolated digital piano tones were used to train the system. The proposed system was tested on classical recordings of the Classical Piano MIDI database and on recordings of a Korg SP-250 piano and evaluated using a variety of metrics. The conclusion part contains the results of recognition success rate and their comparison with other existing systems.</span>
+</p>
 
 <!--more-->
 
