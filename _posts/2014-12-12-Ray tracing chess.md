@@ -46,44 +46,44 @@ This project was the main deliverable of the winter semester course Computer gra
  
  <div>
   <a href="/img/2014-12-02--ray_tracing/01.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
   </a>
 </div>
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/02.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/02.png" alt="Ray traced chess 02" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/02.png" alt="Ray traced chess 02" width="700" align="middle">
   </a>
 </div>
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/03.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/03.png" alt="Ray traced chess 03" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/03.png" alt="Ray traced chess 03" width="700" align="middle">
   </a>
 </div>
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/04.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/04.png" alt="Ray traced chess 04" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/04.png" alt="Ray traced chess 04" width="700" align="middle">
   </a>
 </div>
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/05.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/05.png" alt="Ray traced chess 05" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/05.png" alt="Ray traced chess 05" width="700" align="middle">
   </a>
 </div>
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/06.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/06.png" alt="Ray traced chess 06" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/06.png" alt="Ray traced chess 06" width="700" align="middle">
   </a>
 </div>
 
 
 <div>
   <a href="/img/2014-12-02--ray_tracing/07.png">
-  <img class="post" src="/img/2014-12-02--ray_tracing/07.png" alt="Ray traced chess 07" width="700" align="middle">
+  <img style="margin: 10px 10px;" class="post" src="/img/2014-12-02--ray_tracing/07.png" alt="Ray traced chess 07" width="700" align="middle">
   </a>
 </div>
  
