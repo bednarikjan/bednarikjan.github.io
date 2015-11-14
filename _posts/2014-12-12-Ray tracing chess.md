@@ -45,8 +45,45 @@ This project was the main deliverable of the winter semester course Computer gra
 <h2>Gallery</h2>
  
  <div>
-  <a href="/img/2015-06-05-traj_clus/trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
+  <a href="/img/2014-12-02--ray_tracing/01.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/02.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/03.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/04.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/05.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/06.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
+  </a>
+</div>
+
+
+<div>
+  <a href="/img/2014-12-02--ray_tracing/07.png">
+  <img class="post" src="/img/2014-12-02--ray_tracing/01.png" alt="Ray traced chess 01" width="700" align="middle">
   </a>
 </div>
  
