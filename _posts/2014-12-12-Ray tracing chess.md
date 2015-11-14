@@ -8,6 +8,7 @@ published: true
 ---
 
 
+
 <div class="post">
 
 <p>
@@ -42,5 +43,11 @@ This project was the main deliverable of the winter semester course Computer gra
 </table>
  
 <h2>Gallery</h2>
+ 
+ <div>
+  <a href="/img/2015-06-05-traj_clus/trajclus.png">
+  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
+  </a>
+</div>
  
 </div>
