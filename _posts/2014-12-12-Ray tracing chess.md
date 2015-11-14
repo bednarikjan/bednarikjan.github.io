@@ -38,7 +38,7 @@ This project was the main deliverable of the winter semester course Computer gra
   <tr>
     <td><img src="/img/pdf.png" alt="pdf icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Doc (CZ):</span></td>
-    <td><a href="">Documentation - Ray tracing</a></td>
+    <td><a href="https://github.com/bednarikjan/RayTracingChess/blob/master/doc/dokumentace.pdf">Documentation - Ray tracing</a></td>
   </tr>
 </table>
  
