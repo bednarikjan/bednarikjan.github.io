@@ -17,8 +17,8 @@ In this project I attempted to create an application which would enable the user
 <!--more-->
 
 <div>
-  <a href="/img/2015-06-05-traj_clus/trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
+  <a href="/img/2015-08-08-3D_object_from_2D/table.png">
+  <img class="post" src="/img/2015-08-08-3D_object_from_2D/table.png" alt="The sensor installation and the detection region" width="600" align="middle">
   </a>
 </div>
 
