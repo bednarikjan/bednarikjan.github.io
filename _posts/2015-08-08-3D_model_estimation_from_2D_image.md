@@ -23,15 +23,18 @@ In this project I attempted to create an application which would enable the user
 </div>
 
 <h2>System overview</h2>
-
 <p>
+As the input a couple of camera images of the scene taken from different locations is required while all of the images must contain a chessboard printed on the paper placed somewher in the scene. The application then lets you draw four arbitrarily placed points in the scene and then visdually define the object volume. Multiple objects can be drawn in one image.
 </p>
 
 <h2>How it works?</h2>
-
+Since we have multiple images of the scene including a printed chessboard, it is possible to calculate both the camera intrisic and extrinsic matrix. As the next step the world -> camera frame transformation matrix is computed. Since the chesboard serves the purpose of the marker here and defines an XY plane (Z = 0) it is possible to compute the homography between the world plane and the image. Using the inverse homography matrix the coordinates of the object vertices in the 3D scene are finally obtained.
 <p>
 
 <h2>Implementation</h2>
+The demo application is implemented in C++ and uses the OpenCV library. You cand draw the points using the left mouse button and further adjust the object volume using the up and down keys (see the video below).
+
+<iframe src="https://player.vimeo.com/video/145732353" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <h2>Project materials</h2>
 
