@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 tags: "computer-vision multiple-view-geometry object-reconstruction C++"
 date: "2015-08-08 17:01"
