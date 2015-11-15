@@ -21,15 +21,15 @@ The resulting program is a command line tool working as a filter. It reads the i
 <h2>How it works?</h2>
 
 <p>
-The first method, Gray Coded Bit Plane Matching, compares the bit fields in the consecutive frames of the video and tries to estimate the most likely translation. A bitfield is a matrix obtained from the input frame by iteratively applying the XOR operation (for more details see paper <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.6888&rep=rep1&type=pdf">Real-Time Digital Image Stabilization</a>). The method is fast but only enables for translation correction.
+The first method, Gray Coded Bit Plane Matching, compares the bit fields in the consecutive frames of the video and tries to estimate the most likely translation. A bitfield is a matrix obtained from the input frame by iteratively applying the XOR operation (for more details see the paper <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.6888&rep=rep1&type=pdf">Real-Time Digital Image Stabilization</a>). The method is fast but only enables for translation correction.
 </p>
 
 <p>
-The second method utilizes the KLT tracker for detection and tracking of the key points. As the key points are gradually lost (the camera/object moves) it is necessary to reinitialize the tracker. In order to reduce the computational complexity we only reinitialize the tracker if the number fo tracked points falls below the specifed threshold. The affine transformation itslef is then estimated using Singular Value Decompostion which gives us the rotation and translation matrix. Thus this method allows for compansating both rotation and translation.
+The second method utilizes the KLT tracker for detection and tracking of the key points. As the key points are gradually lost (the camera/object moves) it is necessary to reinitialize the tracker. In order to reduce the computational complexity we only reinitialize the tracker if the number of tracked points falls below the specifed threshold. The affine transformation itslef is then estimated using Singular Value Decompostion which gives us the rotation and translation matrix. Thus this method allows for compansating both rotation and translation.
 </p>
 
 <p>
-Furthermore we took the Google's approach described in this paper and implemented the simulation of the long term camera motion. We only support the linear motion model.
+Furthermore we took the incpiration in the Google's approach described in <a href="http://static.googleusercontent.com/media/research.google.com/cs//pubs/archive/37041.pdf">this paper</a> and implemented the quazi-simulation of the long term camera motion. We only support the linear motion model.
 </p>
 
 <br>
