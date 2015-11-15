@@ -1,44 +1,12 @@
 ---
-  name: "Your Name"
-  position: "Your Position"
-  company: "Your Company"
-  location: "Your City, Your State"
-  email: "you@somedomain.com"
+  name: "Jan Bednařík"
+  position: "Student"
+  company: "Faculty of Information Technology, Brno University of Technology"
+  location: "Brno, Czech Republic"
+  email: "jan.bednarik@hotmail.cz"
   gravatar: "http://api.adorable.io/avatars/300/abott@adorable.png"
   bio: |
   <div>  
-    <p>
-    <img width="189" height="232" src="file:///C:/Users/janbe/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" align="left" hspace="12"/>
-    Bc. Jan <strong>Bednařík</strong>
-</p>
-<p>
-    <strong>ADDRESS</strong>
-    Jiráskova 41 • Šternberk 785 01 • Czech Republic
-</p>
-<p>
-    <strong>PHONE</strong>
-    +420 731 881 055
-</p>
-<p>
-    <strong>E-MAIL</strong>
-    <a href="mailto:jan.bednarik@hotmail.cz">jan.bednarik@hotmail.cz</a>
-</p>
-<p>
-    <strong>LINKEDIN </strong>
-    <a href="http://www.linkedin.com/in/bednarikjan">http://www.linkedin.com/in/bednarikjan</a>
-</p>
-<p>
-    <strong>WEB </strong>
-    <a href="http://bednarikjan.github.io/">http://bednarikjan.github.io</a>
-</p>
-<p>
-    <strong>DATE OF BIRTH</strong>
-    05/03/1991
-</p>
-<p>
-    <strong>NATIONALITY</strong>
-    Czech
-</p>
 <table border="0" cellspacing="0" cellpadding="0" width="862">
     <tbody>
         <tr>
