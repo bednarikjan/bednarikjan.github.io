@@ -31,7 +31,7 @@
        logo: "fa-linkedin"
     github:
       url: "https://github.com/bednarikjan"
-      text: "/bednsrikjan"
+      text: "/bednarikjan"
       btnClass: "btn-github"
       logo: "fa-github"
     #stackoverflow:
