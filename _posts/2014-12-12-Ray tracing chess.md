@@ -12,17 +12,17 @@ published: true
 <div class="post">
 
 <p>
-This project was the main deliverable of the winter semester course Computer graphics. Even though the principle of ray tracing is not particuralry new and is already well established, I have somehow always felt the temptation to write my own simple ray tracer from scratch. Therefore, together with my colleague, we decided to assign for a project called Chess rendered using ray tracing. The resulting application written in C++ is capable of rendering the chessboard with arbitrarily placed pieces, it uses the Phong shading model and supports shadows and reflections. Hooray, one programmer's dream checked :-).
+This project was the main deliverable of the winter semester course Computer graphics. Even though the principle of ray tracing is not particuralry new and is already well established, I have somehow always felt the temptation to write my own simple ray tracer from scratch. Therefore, together with my colleague, we decided to assign for a project called Chess rendered using ray tracing. The resulting application written in C++ is capable of rendering the chessboard with arbitrarily placed pieces, it uses the Phong shading model and supports shadows and reflections and most importantly.. weehee, one programmer's dream checked :-).
 </p>
 
 <!--more-->
  
 <h2>System overview</h2>
  
- The resulting application lets the user render the scene containing the chessboard covered by pieces of both opponets. We decided to make the system as parametrizable as possible. It is possible to set the camera's resolution and FOV, the position of the light in the scene, background color, recursion depth of ray tracing, the colors of the pieces and chessboard fields as well as the reflectance and the shininess. Regarding the chessboard model, the user can set the position of each piece. Both the renderer and the model configuration can be done using the files <tt>configChessDefault</tt> and <tt>configRTDefault</tt> (see the <a href="">source code</a>). The program uses free model file chess.obj (by author <a href="http://www.turbosquid.com/FullPreview/Index.cfm/ID/544320">cjx3711</a>). It is possible to use your own model but the program expects the separated models (chess pieces and chessboard) to follow specific name convention (see the chess.obj model file). The renderer only supports .OBJ files.
+ The resulting application lets the user render the scene containing the chessboard covered by pieces of both opponets. We decided to make the system as parametrizable as possible. It is possible to set the camera's resolution and FOV, the position of the light in the scene, background color, recursion depth of ray tracing, the colors of the pieces and chessboard fields as well as the reflectance and the shininess. Regarding the chessboard model, the user can set the position of each piece. Both the renderer and the model configuration can be done using the files <tt>configChessDefault</tt> and <tt>configRTDefault</tt> (see the <a href="https://github.com/bednarikjan/RayTracingChess">source code</a>). The program uses a free model file chess.obj (by author <a href="http://www.turbosquid.com/FullPreview/Index.cfm/ID/544320">cjx3711</a>). It is possible to use your own model but the program expects the separated models (chess pieces and chessboard) to follow specific name convention (see the chess.obj model file). The renderer only supports .OBJ files.
  
 <h2>Implementation</h2>
-<p>To reinvent the wheel was the approach we went for :-). As a nice practice we implemented everything from scratch using pure C++ (we only use the Eigen library for camera transformations). As the computation of the intersections with the model's triangles represents the most significant bottleneck of the application, we implemented  In order to optimize the algorithm we implemented the method Fast Minimum Storage Ray/Triangle Intersection (see <a href="http://dl.acm.org/citation.cfm?id=272315">this paper</a>). It was also necessary to introduce bounding boxes otherwise the renderer would be dead-slow.
+<p>To reinvent the wheel was the approach we went for :-). As a nice practice we implemented everything from scratch using pure C++ (we only used the Eigen library for camera transformations). As the computation of the intersections with the model's triangles represents the most significant bottleneck of the application, we implemented  the method called Fast Minimum Storage Ray/Triangle Intersection (see <a href="http://dl.acm.org/citation.cfm?id=272315">this paper</a>). It was also necessary to introduce bounding boxes otherwise the renderer would be dead-slow.
 </p>
  
 <h2>Project materials</h2>
@@ -33,7 +33,7 @@ This project was the main deliverable of the winter semester course Computer gra
   <tr>
     <td><img src="/img/source.png" alt="source code icon" width="40" height="40" align="middle"></td>
     <td><span style="font-variant: small-caps;">Source code (C++):</span></td>
-    <td><a href="https://github.com/bednarikjan/RayTracingChess/tree/master/rtchess">Chess renderer using ray tracing</a></td>
+    <td><a href="https://github.com/bednarikjan/RayTracingChess">Chess renderer using ray tracing</a></td>
   </tr>
   <tr>
     <td><img src="/img/pdf.png" alt="pdf icon" width="40" height="40" align="middle"></td>
