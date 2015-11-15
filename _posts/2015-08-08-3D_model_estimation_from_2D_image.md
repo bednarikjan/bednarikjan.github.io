@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 layout: post
 tags: "computer-vision multiple-view-geometry object-reconstruction C++"
 date: "2015-08-08 17:01"
-thumbnail: "/img/2015-08-08-3D_object_from_2D/thumbnail.png"
+thumbnail: "/img/2015-08-08-3D_object_from_2D/thumnbnail.png"
 title: Reconstruciotn of 3D models from 2D images
 ---
 
@@ -17,8 +17,8 @@ In this project I attempted to create an application which would enable the user
 <!--more-->
 
 <div>
-  <a href="/img/2015-06-05-traj_clus/trajclus.png">
-  <img class="post" src="/img/2015-06-05-traj_clus/trajclus.png" alt="The sensor installation and the detection region" width="700" align="middle">
+  <a href="/img/2015-08-08-3D_object_from_2D/table.png">
+  <img class="post" src="/img/2015-08-08-3D_object_from_2D/table.png" alt="The sensor installation and the detection region" width="600" align="middle">
   </a>
 </div>
 
