@@ -6,7 +6,7 @@
   email: "you@somedomain.com"
   gravatar: "http://api.adorable.io/avatars/300/abott@adorable.png"
   bio: |
-    
+  <div>  
     <p>
     <img width="189" height="232" src="file:///C:/Users/janbe/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" align="left" hspace="12"/>
     Bc. Jan <strong>Bednařík</strong>
@@ -592,6 +592,7 @@
 <p>
     Brno, 07/11/2015
 </p>
+</div>
     
   #activate the social buttons you like by removing the comment
   social:
