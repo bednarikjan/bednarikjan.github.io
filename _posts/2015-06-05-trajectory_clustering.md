@@ -10,7 +10,7 @@ published: true
 
 <div class="post">
 
-<p> Automatic trajectory clustering is particularly useful in projects where a huge amount of spatio temporal data must be handeled. It might be ecologists who track wild animals, meteorologists who track hurricane flows or traffic researchers who analyse the common patterns in traffic - they all work with tons od data wchich must be (auomatically) analyzed in order to derive meaningful information. Thus this project focuses on implementing algorithms capable of fully automatic clustering of 2D trajectories. </p>
+<p> Automatic trajectory clustering is particularly useful in projects where a huge amount of spatio temporal data must be handled. It might be ecologists who track wild animals, meteorologists who track hurricane flows or traffic researchers who analyse the common patterns in traffic - they all work with the tons of data which must be (auomatically) analyzed in order to derive a meaningful information. Thus this project focuses on implementing algorithms capable of fully automatic clustering of 2D trajectories. </p>
 
 <!--more-->
 
@@ -23,7 +23,7 @@ published: true
 <h2>System overview</h2>
 
 <p>
-The demo application allows you to draw your own trajectories (on the top-view photo of roundabout) and then let the system cluster them. In case of agglomerative clustering implementation you must specify the expected number of clusters, wheras the spectral clustering method is smarter and is capable of estimating the most appropriate number of clusters itself.
+The demo application allows you to draw your own trajectories (on the top-view photo of roundabout) and then the system clusters them. In case of agglomerative clustering implementation you must specify the expected number of clusters, wheras the spectral clustering method is smarter and is capable of estimating the most appropriate number of clusters itself.
 </p>
 
 <h2>How it works?</h2>
@@ -31,7 +31,7 @@ The demo application allows you to draw your own trajectories (on the top-view p
 <p>
 The system is based on the modified Hausdorff distance used as a semi-metric to define the similarity measure (affinity) among different trajectories. The modification of the Hausdorff distance is necessary to alleviate the imprecision of the trackers producing the trajectories. As for the clustering part, either the agglomerative or the spectral clustering can be used. 
 
-The main advantage of the spectral clustering is its ability to find the number of clusters itself. Basically first the normalized affinity matrix is created which is then eigen-decomposed end the eigen-values are examined. The number of eigen-values exceedeing the given threshold specifies the maximum number of clusters. The clustering itself might be done using standard K-means approach (where each eigen-vector represents one datum) for all possible number of clusters. The final number of clusters is chosen according to the distortion score obtained for each clustering attempt. For more details see the paper <a href="https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCUQFjAAahUKEwjPmvixuYnJAhWJ0RQKHf1QBMQ&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5462900&usg=AFQjCNGDZf7nnVD_EuvviQTQOdHtLIeM3A&sig2=0_SachOr4f8vFdW8aF0JZg">Clustering of vehicle trajectories</a>.</p>
+The main advantage of the spectral clustering is its ability to find the number of clusters itself. Basically first the normalized affinity matrix is created which is then eigen-decomposed and the eigen-values are examined. The number of eigen-values exceedeing the given threshold specifies the maximum number of clusters. The clustering itself might be done using standard K-means approach (where each eigen-vector represents one datum) for all possible number of clusters. The final number of clusters is chosen according to the distortion score obtained for each clustering attempt. For more details see the paper <a href="https://www.google.cz/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCUQFjAAahUKEwjPmvixuYnJAhWJ0RQKHf1QBMQ&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5462900&usg=AFQjCNGDZf7nnVD_EuvviQTQOdHtLIeM3A&sig2=0_SachOr4f8vFdW8aF0JZg">Clustering of vehicle trajectories</a>.</p>
 
 <h2>Implementation</h2>
 
