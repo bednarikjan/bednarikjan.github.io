@@ -137,6 +137,10 @@ background-color:#0e76a8;
   text-align: center;
 }
 
+.justified-text{
+  text-align: justify;
+}
+
 
 /* front page stuff */
 .imgcontainer img{
