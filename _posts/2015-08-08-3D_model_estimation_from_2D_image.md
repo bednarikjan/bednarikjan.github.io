@@ -8,6 +8,7 @@ title: Reconstruciotn of 3D models from 2D images
 ---
 
 
+
 <div class="post">
 
 <p>
@@ -36,6 +37,12 @@ The demo application is implemented in C++ and uses the OpenCV library. You cand
 
 <iframe src="https://player.vimeo.com/video/145732353" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
+<h2>Authors</h2>
+<ul>
+<li><a href="mailto:jan.bednarik@hotmail.cz">Jan Bednařík</a></li>
+</ul>
+<p>I worked on this project as an employee of the Czech Republic based company <a href="http://www.rcesystems.cz/">RCE systems.</a></p>
+
 <h2>Project materials</h2>
 
 <table>
@@ -49,4 +56,3 @@ The demo application is implemented in C++ and uses the OpenCV library. You cand
 </table>
 
 </div>
-
