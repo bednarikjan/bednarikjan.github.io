@@ -5,7 +5,7 @@
   location: "Brno, Czech Republic"
   email: "jan.bednarik@hotmail.cz"
   gravatar: "https://raw.githubusercontent.com/bednarikjan/bednarikjan.github.io/master/img/JanBednarik-2014.jpg"
-  bio: <div>ggg</div>
+  bio: <div>ggg<table border="0" cellspacing="0" cellpadding="0" width="862"><tbody><tr><td width="213" valign="top"><p>Education</p></td><td width="650" valign="top"></td></tr></tbody></table></div>
     
   #activate the social buttons you like by removing the comment
   social:
