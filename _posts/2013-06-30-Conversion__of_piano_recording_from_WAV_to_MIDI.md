@@ -20,7 +20,7 @@ Here is the abstract of the thesis:
 </p>
 
 <h2>How it works?</h2>
-One of the main requirements was to support polypohny, as that poses a real challenge (nowadays the systems focusing on single pitch detection work pretty well). I decided to utilize the PLCA approach, a probabilistic method which is able to decompose the N-dimensional data structure to the arbitrary number of one-deimsnional bases. I trained each basis both using the recordings of the real piano and the synthetitc sounds (think of a base as one piano key). PLCA proved to be capable of distinguisingh among separate key strokes even when polypohny was in place. In exepriments the system achieved the precision of nearly 74 % which is moreless (depending on the dataset) on par with other state-of-the-art systems. Though it is still not robust enought for fully automatic music transcription as for the perception by a musician the resulting MIDI sounds close enough to the original signal.
+One of the main requirements was to support the polypohny, as that poses a real challenge (nowadays the systems focusing on single pitch detection work pretty well). I decided to utilize the PLCA (Probabilistic Latent Component Analysis) approach, a probabilistic method which is able to decompose the N-dimensional data structure to the arbitrary number of one-deimsnional bases. I trained each basis both using the recordings of the real piano and the synthetitc sounds (think of a base as one piano key). PLCA proved to be capable of distinguisingh among separate key strokes even when polypohny was in place. In exepriments the system achieved the precision of nearly 74 % which is moreless (depending on the dataset) on par with other state-of-the-art systems. Though it is still not robust enought for fully automatic music transcription as for the perception by a musician the resulting MIDI sounds close enough to the original signal.
 
 <div>
   <a href="/img/2013-06-30-wav2midi/notes.png">
@@ -38,7 +38,7 @@ One of the main requirements was to support polypohny, as that poses a real chal
 <p>The system is implemented in Matlab and can be used as a command line application accpeting the WAV recording and producing the correspondent MIDI. No addirtional optimalizations were made as this project was meant to be a proof-of-concept of the given approach.</p>
 
 <h2>Awards</h2>
-<p>The Bachelor thesis was awarded the Dean's award for outstanding Bachelor thesis.</p>
+<p>The Bachelor thesis was awarded the Dean's award for outstanding Bachelor thesis at Faculty of Information Technology, Brno University of Technology.</p>
 
 <iframe src="https://player.vimeo.com/video/145616615" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
