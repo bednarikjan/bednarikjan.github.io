@@ -10,7 +10,7 @@ published: true
 
 <div class="post">
 
-<p> In this project I worked on a system capable of tracking a human and detecting human gestures using depth data from Microsoft Kinect sensor placed right above the detection region. Of course, there already exist multiple working SW solutions for human tracking (e.g. Microsoft for Kinect SDK, OpenNI etc.), nevertheless neither of those libraries support human recognition and tracking when the sensor is placed right above the tracked person. Here the real challenge started as we had to design and implement the human recognition, tracking and gesture detection from scratch. </p>
+<p> In this project I worked on a system capable of tracking a human and detecting human gestures using the depth data obtained from Microsoft Kinect sensor placed right above the detection region. Of course, there already exist multiple working SW solutions for human tracking (e.g. Microsoft for Kinect SDK, OpenNI etc.), nevertheless neither of those libraries support human recognition and tracking when the sensor is placed right above the tracked person. Here the real challenge started as we had to design and implement the human recognition, tracking and gesture detection from scratch. </p>
 
 <!--more-->
 
@@ -20,7 +20,7 @@ published: true
   </a>
 </div>
 
-<p>One might ask, why to reinvent the whell and not just place the sensor in front of the tracked person and use the already working side-view? The reason is that this system was ordered byt the Czech Republic based glass installations manufacturer Lasvit, who intended to create a kinect installation controled by human gestures in the real-time and who insisted that the (depth) sensor must not interfere with the exposition and must not be seen. Therefore the only possible solution was to place the sensor on the ceiling.</p>
+<p>One might ask, why reinventing the whell and not just placing the sensor in front of the tracked person and using the already working side-view? The reason is that this system was ordered by the Czech Republic based glass installations manufacturer Lasvit, who intended to create a kinect installation controled by human gestures in the real-time and who insisted that the (depth) sensor must not interfere with the exposition and must not be seen. Therefore the only possible solution was to place the sensor on the ceiling.</p>
 
 <div>
   <a href="/img/2015-04-15-hum_gest_rec/tracking.png">
@@ -30,7 +30,7 @@ published: true
 
 <h2>System overview</h2>
 
-<p>The system is capable of detection and tracking a person and currently it can recognize six predefined gestures. The good thing is that no prior knowledge about a person to be tracked is required as the system derives the necessary information autonomously during the human detection phase. Even crowded environments are handled using selective tracking of formerly detected person. We optimised the overall performance with the help of GPU acceleration using CUDA framework and the system is thus capable of running real time.</p>
+<p>The system is capable of detection and tracking a person and currently it can recognize six predefined gestures. The good thing is that no prior knowledge about a person to be tracked is required as the system derives the necessary information autonomously during the human detection phase. Even crowded environments are handled well using a selective tracking of formerly detected person. We optimised the overall performance with the help of GPU acceleration using CUDA framework and the system is thus capable of running real time.</p>
 
 <h2>How it works?</h2>
 
@@ -50,12 +50,12 @@ published: true
 
 <h2>Real world application</h2>
 
-<p> The system was ordered by the company Lasvit, Czech Republic based designer and manufacturer of the luxury glass installations and lighting collections, and it was presented together with their kinetic lighting system Supernova on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internals of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit. </p>
+<p> The system was ordered by the company Lasvit, Czech Republic based designer and manufacturer of the luxury glass installations and lighting collections, and it was presented together with their kinetic lighting system Supernova on <a href="http://salonemilano.it/en-us/EXHIBITORS/Euroluce">Euroluce 2015</a> exhibition held in Milan in April 2015. In the demonstration video below the internal visualization of the system are shown as well as the teaser from Euroluce 2015 made by Lasvit. </p>
 
 <iframe src="https://player.vimeo.com/video/144561041" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 
 <h2>Awards</h2>
-<p>I had the chance to present the project at conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a>, student competition conference of innovations, technology and science in IT, which was held by hthe Faculty of Information Technology, Brno University of Technology on 30th April 2015. Our project was awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
+<p>I had the chance to present the project at conference <a href="http://excel.fit.vutbr.cz/">Excel@FIT 2015</a>, the student competition conference of innovations, technology and science in IT, which was held by hthe Faculty of Information Technology, Brno University of Technology on 30th April 2015. Our project was awarded the 1st prize for the excellent idea, the 2nd prize for the innovation potential, the 3rd prize for the business potential and the 4th prize for the social contribution.</p>
 
 <h2>Authors</h2>
 <ul>
