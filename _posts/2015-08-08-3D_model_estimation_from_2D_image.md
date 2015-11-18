@@ -4,7 +4,7 @@ layout: post
 tags: "computer-vision multiple-view-geometry object-reconstruction C++"
 date: "2015-08-08 17:01"
 thumbnail: "/img/2015-08-08-3D_object_from_2D/thumnbnail.png"
-title: Reconstruciotn of 3D models from 2D images
+title: Reconstruction of 3D models from 2D images
 ---
 
 
