@@ -26,7 +26,7 @@ published: true
 The demo application allows you to draw your own trajectories (on the top-view photo of roundabout) and then the system clusters them. In case of agglomerative clustering implementation you must specify the expected number of clusters, wheras the spectral clustering method is smarter and is capable of estimating the most appropriate number of clusters itself.
 </p>
 
-<h2>How it works?</h2>
+<h2>How it works</h2>
 
 <p>
 The system is based on the modified Hausdorff distance used as a semi-metric to define the similarity measure (affinity) among different trajectories. The modification of the Hausdorff distance is necessary to alleviate the imprecision of the trackers producing the trajectories. As for the clustering part, either the agglomerative or the spectral clustering can be used. 
