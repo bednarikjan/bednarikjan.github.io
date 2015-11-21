@@ -12,7 +12,7 @@ title: Reconstruction of 3D models from 2D images
 <div class="post">
 
 <p>
-In this project I attempted to create an application which would enable the user to reconstruct simple block-shaped objects together with their position in the 3D world from 2D images of the scene. The user is only required to draw 3 or 4 points specifying one base of the object while the volume and the position could then be easily derived as the user stretches the rendered object (to match the underlying image). Multiple view geometry as well as the marker(s) is used here to compute the homography between the image and the world frame.
+In this project I attempted to create an application which would enable the user to reconstruct simple block-shaped objects together with their position in the 3D world from 2D images of the scene. The user is only required to draw 3 or 4 points specifying one base of the object while the volume and the position could then be easily derived as the user stretches the rendered object (to match the underlying image). Multiple view geometry as well as the marker(s) are used here to compute the homography between the image and the world frame.
 </p>
 
 <!--more-->
@@ -25,10 +25,10 @@ In this project I attempted to create an application which would enable the user
 
 <h2>System overview</h2>
 <p>
-As the input a couple of camera images of the scene taken from the different locations is required while all of the images must contain a chessboard printed on the paper placed somewher in the scene. The application then lets you draw four arbitrarily placed points in the scene and then visually define the object volume. Multiple objects can be drawn in one image.
+A couple of camera images of the scene taken from the different locations is required while all of the images must contain a chessboard printed on the paper placed somewhere in the scene. The application then allows you to draw four arbitrarily placed points in the scene and then visually define the object volume. Multiple objects can be drawn in one image.
 </p>
 
-<h2>How it works?</h2>
+<h2>How it works</h2>
 Since we have multiple images of the scene including a printed chessboard, it is possible to calculate both the camera intrisic and extrinsic matrix. As the next step the world -> camera frame transformation matrix is computed. Since the chesboard serves the purpose of the marker here and defines an XY plane (Z = 0) it is possible to compute the homography between the world plane and the image. Using the inverse homography matrix the coordinates of the object vertices in the 3D scene are finally obtained.
 <p>
 
