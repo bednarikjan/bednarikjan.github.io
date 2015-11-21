@@ -29,7 +29,7 @@ A couple of camera images of the scene taken from the different locations is req
 </p>
 
 <h2>How it works</h2>
-Since we have multiple images of the scene including a printed chessboard, it is possible to calculate both the camera intrisic and extrinsic matrix. As the next step the world -> camera frame transformation matrix is computed. Since the chesboard serves the purpose of the marker here and defines an XY plane (Z = 0) it is possible to compute the homography between the world plane and the image. Using the inverse homography matrix the coordinates of the object vertices in the 3D scene are finally obtained.
+Since we have multiple images of the scene including a printed chessboard, it is possible to calculate both the camera intrinsic and extrinsic matrices. As the next step the world -> camera frame transformation matrix is computed. Since the chesboard serves the purpose of the marker here and defines an XY plane (Z = 0) it is possible to compute the homography between the world plane and the image. Using the inverse homography matrix we finally obtain the coordinates of the object vertices in the 3D scene.
 <p>
 
 <h2>Implementation</h2>
