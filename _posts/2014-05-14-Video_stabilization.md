@@ -18,7 +18,7 @@ published: true
 The resulting program is a command line tool working as a filter. It reads the input video and produces its stabilized equivalent. When using the tool you can fine-tune multiple parameters specific to the chosen method. The tool is implemented in C++ and uses the OpenCV library.
 </p>
 
-<h2>How it works?</h2>
+<h2>How it works</h2>
 
 <p>
 The first method, Gray Coded Bit Plane Matching, compares the bit fields in the consecutive frames of the video and tries to estimate the most likely translation. A bitfield is a matrix obtained from the input frame by iteratively applying the XOR operation (for more details see the paper <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.6888&rep=rep1&type=pdf">Real-Time Digital Image Stabilization</a>). The method is fast but only enables for translation correction.
