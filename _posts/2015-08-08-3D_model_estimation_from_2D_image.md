@@ -33,7 +33,7 @@ Since we have multiple images of the scene including a printed chessboard, it is
 <p>
 
 <h2>Implementation</h2>
-The demo application is implemented in C++ and uses the OpenCV library. You cand draw the points using the left mouse button and further adjust the object volume using the up and down keys (see the video below).
+The demo application is implemented in C++ and it uses the OpenCV library. You cand draw the points using the left mouse button and further adjust the object volume using the up and down keys (see the video below).
 
 <iframe src="https://player.vimeo.com/video/145732353" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
