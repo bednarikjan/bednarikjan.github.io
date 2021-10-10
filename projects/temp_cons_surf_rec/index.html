@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Temporally-Coherent Surface Reconstruction via Metric-Consistent Atlases</title>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+	<link rel="stylesheet" type="text/css" href="style.css" title="style" />
+
+	<script type="text/javascript" async
+		src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+</head>
+
+
+<body>
+	<div id="main" class="border">
+		<div id="paper" class="border">
+			<div id="content" class="border">
+				<div id=title_text>Temporally-Coherent <br /> Surface Reconstruction <br /> cia Metric-Consistent Atlases</div>
+				<div id=paper_link><a href="https://iccv2021.thecvf.com/home">ICCV 2021</a></div>
+				<div id=authors><pre>Jan Bednarik<sup>1</sup>   Vladimir G. Kim<sup>2</sup>   Siddhartha Chaudhuri<sup>2</sup>   <br />Shaifali Parashar<sup>1</sup>   Mathieu Salzmann<sup>1</sup>   <br />Pascal Fua<sup>1</sup>   Noam Aigerman<sup>2</sup></pre></div>
+				<div id=affiliations><pre><sup>1</sup><a href="https://www.epfl.ch/labs/cvlab/">EPFL</a>    <sup>2</sup><a href="https://research.adobe.com/">Adobe Research</a></pre></div>
+
+				<div>
+					<img src="https://raw.githubusercontent.com/bednarikjan/temporally_coherent_surface_reconstruction/main/doc/img/teaser/camel_collapse.gif" width="750" >
+				</div>
+
+				<!-- Links to the material -->
+				<div class="section border materials center">
+					<hr>
+					<a href="https://arxiv.org/abs/2104.06950">Paper</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="https://github.com/bednarikjan/temporally_coherent_surface_reconstruction">Code</a>
+					&nbsp;&nbsp;&nbsp;
+					<a href="https://www.youtube.com/watch?v=P4imXONmtto&t=12s&ab_channel=JanBedna%C5%99%C3%ADk">Video</a>
+					<hr>
+
+				</div>
+
+				<!-- Abstract -->
+				<div class="section border">
+					<h1>Abstract</h1>
+					<p>We propose a method for the unsupervised reconstruction of a temporally-coherent  sequence of surfaces from a sequence of time-evolving point clouds, yielding dense, semantically meaningful correspondences between all keyframes. We represent the reconstructed surface as an atlas, using a neural network. Using canonical correspondences defined via the atlas, we encourage the reconstruction to be as isometric as possible across frames, leading to semantically-meaningful reconstruction. Through experiments and comparisons, we empirically show that our method achieves results that exceed that state of the art in the accuracy of unsupervised correspondences and accuracy of surface reconstruction.</p>
+				</div>
+
+				<!-- Video -->
+				<div class="section border">
+					<h1>Video</h1>
+					<iframe width="800" height="450" src="https://www.youtube.com/embed/jfNQPTsbM3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+
+				<!-- Method -->
+				<div class="section border">
+					<h1>Method</h1>
+					<p>
+						We rely on the AtlasNet atlas-based representation [1] to model the surface underlying
+						the 3D points. However, whereas in the original AtlasNet, any patch can correspond to
+						any part of the surface, we enforce consistency of the patch locations through the whole
+						sequence effectively creating a time-consistent atlas.
+					</p>
+					<p>
+						To learn atlases that are semantically and temporally coherent, meaning that each
+						2D point on each 2D atlas patch models the same semantic surface point over time, we
+						require that our model predicts close-to-isometric deformation between a given pair of
+						frames.
+					</p>
+					<p>
+						For this purpose we compute the Riemannian metric on the surface and require that
+						it remains remains constant for any surface point as the shape changes. We translate
+						this into a metric-consistency loss function, which, when minimized, implicitly establishes
+						meaningful point correspondences. For details please see the
+						<a href="https://arxiv.org/abs/2104.06950">paper</a> and/or the
+						<a href="https://www.youtube.com/watch?v=P4imXONmtto&t=12s&ab_channel=JanBedna%C5%99%C3%ADk">video</a>.
+					</p>
+
+					<img class="center" src="img/horse_method.png" width="500">
+					<p class="center" style="font-style: italic">
+						Correspondences defined between three surfaces by the mapping of one point through three different atlases.
+					</p>
+				</div>
+
+				<!-- Results -->
+				<div class="section border">
+					<h1>Results</h1>
+					<p>Some of the results produced by our method are shown below. For mode results please see the <a href="https://www.youtube.com/watch?v=P4imXONmtto&t=12s&ab_channel=JanBedna%C5%99%C3%ADk">video</a>.</p>
+					<div class="center">
+						<img src="https://raw.githubusercontent.com/bednarikjan/temporally_coherent_surface_reconstruction/main/doc/img/teaser/handstand.gif" width="750" >
+						<img src="https://raw.githubusercontent.com/bednarikjan/temporally_coherent_surface_reconstruction/main/doc/img/teaser/cat_walk.gif" width="750" >
+						<img src="https://raw.githubusercontent.com/bednarikjan/temporally_coherent_surface_reconstruction/main/doc/img/teaser/horse_gallop.gif" width="750" >
+					</div>
+				</div>
+
+				<!-- Citation -->
+				<div class="section">
+					<h1>Citing this Work</h1>
+					<div id="citation">
+						<pre id="citation_text">
+@inproceedings{bednarik2021temporally_coherent,
+   title  = {Temporally-Coherent Surface Reconstruction via Metric-Consistent Atlases},
+   author = {Bednarik, Jan and Kim, Vladimir G. and Chaudhuri, Siddhartha and Parashar,
+             Shaifali and Salzmann, Mathieu and Fua, Pascal and Aigerman, Noam},
+   booktitle = {Proceedings of IEEE International Conference on Computer Vision (ICCV)},
+   year = {2021}
+}
+						</pre>
+					</div>
+				</div>
+
+				<!-- References -->
+				<div class=" sectionborder">
+					<h1>References</h1>
+					<p>[1] T. Groueix, M. Fisher, V. G. Kim, B. Russel and M. Aubry. AtlasNet: A Papier-Mâché Approach to Learning 3D Surface Generation <i>CVPR</i>, 2018.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
