@@ -21,7 +21,7 @@ layout: home
 </th><th></th></tr>
 
 <tr><td  style="padding-right:10px">
-    <img id="pub_p_small" src="/Users/janbednarik/projects/webpage/bednarikjan.github.io/imgs/teaser_temporally_consistent.png" />
+    <img id="pub_p_small" src="imgs/teaser_temporally_consistent.png" />
     </td>
     <td>
         <p><h3>Temporally-Consistent Surface Reconstruction using Metrically-Consistent Atlases</h3></p>
