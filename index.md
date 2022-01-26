@@ -8,8 +8,7 @@ layout: home
         </div>
     </div>
 
-[comment]: <> (    <div class="split right">)
-<div>
+<div class="split right">
         <p style="text-align: justify;"> I am Jan, a PhD candidate at <a href="https://www.epfl.ch/labs/cvlab/">CVLab</a>, <a href="https://www.epfl.ch/en/">EPFL</a>, working under supervision of Prof. <a href="https://people.epfl.ch/pascal.fua/bio">Pascal Fua</a> and Dr <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Sazlmann</a>. My PhD revolves around 3D vision with a particular focus on deformable surface reconstruction and representaiton learning. My main research interests include geometric deep learning, differential geometry, shape-from-X and shape representation.</p>
 
 <p style="text-align: justify;">
