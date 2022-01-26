@@ -17,7 +17,7 @@ layout: home
 <table class="invisible_table" >
 <tr><th>
 
-<h2 class="spanswhole">Publications:</h2>
+<h2 class="spanswhole" style="text-align: center;">Publications</h2>
 </th><th></th></tr>
 
 <tr><td  style="padding-right:10px">
@@ -54,14 +54,14 @@ layout: home
 </td></tr>
 
 <tr><td  style="padding-right:10px">
-    <img id="pub_p_small" src="" />
+    <img id="pub_p_small" src="imgs/teaser_texless.png" />
     </td>
     <td>
         <p><h3>Learning to Reconstruct Texture-less Deformable Surfaces from a Single View</h3></p>
         <p><a href="https://arxiv.org/abs/1803.08908">[Paper] </a> <a href="https://github.com/bednarikjan/texless_defsurf_recon">[Code]</a> </p>
         <p><b>Jan Bednarik</b>, Mathieu Salzmann, Pascal Fua</p>
         <p><i>3DV 2018</i></p>
-        <p> </p>
+        <p>Recent years have seen the development of mature solutions for reconstructing deformable surfaces from a single image, provided that they are relatively well-textured. By contrast, recovering the 3D shape of texture-less surfaces remains an open problem, and essentially relates to Shape-from-Shading. In this paper, we introduce a data-driven multi-task approach to this problem. Our reconstructions accurately model the fine details of the surfaces, such as the creases of a T-Shirt worn by a person.</p>
 </td></tr>
 
 </table>
