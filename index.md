@@ -32,14 +32,25 @@ layout: home
 </td></tr>
 
 <tr><td  style="padding-right:10px">
-    <img id="pub_p_small" src="imgs/teaser_temporally_consistent.png" />
+    <img id="pub_p_small" src="imgs/teaser_better_patch_stitching.gif" />
     </td>
     <td>
         <p><h3>Better Patch Stitching for Parametric Surface Reconstruction</h3></p>
-        <p><a href="https://arxiv.org/abs/2010.07021">[Paper] </a> <a href="imgs/teaser_better_patch_stitching.gif">[Code]</a> <a href="https://crossminds.ai/video/better-patch-stitching-for-parametric-surface-reconstruction-6046f6fcde447367726cf6a0/">[Video]</a></p>
+        <p><a href="https://arxiv.org/abs/2010.07021">[Paper] </a> <a href="https://github.com/bednarikjan/Better-Patch-Stitching">[Code]</a> <a href="https://crossminds.ai/video/better-patch-stitching-for-parametric-surface-reconstruction-6046f6fcde447367726cf6a0/">[Video]</a></p>
         <p>Zhantao Deng, <b>Jan Bednarik</b>, Mathieu Salzmann, Pascal Fua</p>
         <p><i>3DV 2020</i></p>
-        <p>Ensembles of parametric mappings have emerged as highly effective surface representations yielding low reconstruction errors. However, the representaion suffer from global inconsistency among the individual mappings leading to undesirable surface artifacts such as holes jaggedness in the overallping areas. We introduce an approach that explicitly encourages global consistency of the local mappings through novel loss terms forcing the mapping ensemble towards a C1 smooth function. Our approach yields better surface normals and much improved visual quality of the reconstructed objects.</p>
+        <p>Ensembles of parametric mappings have emerged as highly effective surface representations yielding low reconstruction errors. However, the representaion suffers from global inconsistency among the individual mappings leading to undesirable surface artifacts such as holes jaggedness in the overallping areas. We introduce an approach that explicitly encourages global consistency of the local mappings through novel loss terms forcing the mapping ensemble towards a C1 smooth function. Our approach yields better surface normals and much improved visual quality of the reconstructed objects.</p>
+</td></tr>
+
+<tr><td  style="padding-right:10px">
+    <img id="pub_p_small" src="imgs/dsr.png" />
+    </td>
+    <td>
+        <p><h3>Shape Reconstruction by Learning Differentiable Surface Representations</h3></p>
+        <p><a href="https://arxiv.org/abs/1911.11227">[Paper] </a> <a href="https://github.com/bednarikjan/differential_surface_representation">[Code]</a> </p>
+        <p><b>Jan Bednarik</b>, Shaifali Parashar, Erhan Gundogdu, Mathieu Salzmann, Pascal Fua</p>
+        <p><i>CVPR 2020</i></p>
+        <p>  Generative models that produce point clouds have emerged as a powerful tool to represent 3D surfaces, and the best current ones rely on learning an ensemble of parametric representations. Unfortunately, they offer no control over the deformations of the surface patches that form the ensemble and thus fail to prevent them from either overlapping or collapsing into single points or lines. In this paper, we show that we can exploit the inherent differentiability of deep networks to leverage differential surface properties during training so as to prevent patch collapse and strongly reduce patch overlap.</p>
 </td></tr>
 
 </table>
