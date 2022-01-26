@@ -43,7 +43,7 @@ layout: home
 </td></tr>
 
 <tr><td  style="padding-right:10px">
-    <img id="pub_p_small" src="imgs/dsr.png" />
+    <img id="pub_p_small" src="imgs/teaser_dsr.png" />
     </td>
     <td>
         <p><h3>Shape Reconstruction by Learning Differentiable Surface Representations</h3></p>
@@ -51,6 +51,17 @@ layout: home
         <p><b>Jan Bednarik</b>, Shaifali Parashar, Erhan Gundogdu, Mathieu Salzmann, Pascal Fua</p>
         <p><i>CVPR 2020</i></p>
         <p>  Generative models that produce point clouds have emerged as a powerful tool to represent 3D surfaces, and the best current ones rely on learning an ensemble of parametric representations. Unfortunately, they offer no control over the deformations of the surface patches that form the ensemble and thus fail to prevent them from either overlapping or collapsing into single points or lines. In this paper, we show that we can exploit the inherent differentiability of deep networks to leverage differential surface properties during training so as to prevent patch collapse and strongly reduce patch overlap.</p>
+</td></tr>
+
+<tr><td  style="padding-right:10px">
+    <img id="pub_p_small" src="" />
+    </td>
+    <td>
+        <p><h3>Learning to Reconstruct Texture-less Deformable Surfaces from a Single View</h3></p>
+        <p><a href="https://arxiv.org/abs/1803.08908">[Paper] </a> <a href="https://github.com/bednarikjan/texless_defsurf_recon">[Code]</a> </p>
+        <p><b>Jan Bednarik</b>, Mathieu Salzmann, Pascal Fua</p>
+        <p><i>3DV 2018</i></p>
+        <p> </p>
 </td></tr>
 
 </table>
