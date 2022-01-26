@@ -4,7 +4,7 @@ layout: home
 <div>
     <div class="split left">
         <div>
-        <img id="pp" width="250" src="/Users/janbednarik/projects/webpage/bednarikjan.github.io/imgs/jan.jpg" />
+        <img id="pp" width="250" src="imgs/jan.jpg" />
         </div>
     </div>
     <div class="split right">
