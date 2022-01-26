@@ -8,16 +8,18 @@ layout: home
         </div>
     </div>
     <div class="split right">
-        <p> My name is Jan Bednarik, info info info...
+        <p> I am Jan, a PhD candidate at <a href="https://www.epfl.ch/labs/cvlab/">CVLab</a>, <a href="https://www.epfl.ch/en/">EPFL</a> (Lausanne, Switzerland), where I work under supervision of Prof. <a href="https://people.epfl.ch/pascal.fua/bio">Pascal Fua</a> and Dr <a href="https://people.epfl.ch/mathieu.salzmann">Mathieu Sazlmann</a>. My PhD revolves around 3D vision with a particular focus on deformable surface reconstruction and representaiton learning. My main research interests include geometric deep learning, differential geometry, shape-from-X and shape representation.
+
+In summer 2020 during my Adobe Research internship I had a chance to join the team of <a href="https://noamaig.github.io/">Noam Aigerman</a>, <a href="http://www.vovakim.com/">Vladimir Kim</a> and <a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a>. Before starting my PhD at CVLab at EPFL, I studied at <a href="https://www.fit.vut.cz/.en">Brno University of Technology</a> (Brno, Czechia), where I obtained my M.Sc. degree in computer science. During my undergraduate studies in 2013 I spent five months at <a href="https://www.ntnu.no/">Norwegian Univesity of Science and Tehchnology</a> (Trondheim, Norway) as an exchange student.     
         </p>
     </div>
 </div>
 
 
+<h2 class="spanswhole" style="text-align: center;">Publications</h2>
 <table class="invisible_table" >
 <tr><th>
 
-<h2 class="spanswhole" style="text-align: center;">Publications</h2>
 </th><th></th></tr>
 
 <tr><td  style="padding-right:10px">
